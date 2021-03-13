@@ -6,6 +6,7 @@ from alemanpyutils.io.Writer import Writer
 
 class Runner:
     def __init__(self, reader: Reader, writer: Writer, processors: [Processor], runner_config:RunnerConfig):
+
         super().__init__()
         self.__reader = reader
         self.__writer = writer
@@ -27,6 +28,3 @@ class Runner:
         for proc in self.__processors:
             proc.join()
         self.__writer.join()
-
-
-
