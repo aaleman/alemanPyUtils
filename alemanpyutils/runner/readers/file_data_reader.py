@@ -1,4 +1,4 @@
-from alemanpyutils.runner.data_reader import DataReader
+from alemanpyutils.runner.readers.data_reader import DataReader
 
 
 class FileDataReader(DataReader):

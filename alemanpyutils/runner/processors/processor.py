@@ -1,9 +1,9 @@
 from threading import Thread
 
 from alemanpyutils.function.function import Function
-from alemanpyutils.runner.reader import Reader
+from alemanpyutils.runner.readers.reader import Reader
 from alemanpyutils.runner.runner_config import RunnerConfig
-from alemanpyutils.runner.writer import Writer
+from alemanpyutils.runner.writers.writer import Writer
 from alemanpyutils.runner.batch import Batch
 
 

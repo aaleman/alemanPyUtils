@@ -1,7 +1,7 @@
 from queue import Queue
 from threading import Thread
 
-from alemanpyutils.runner.data_reader import DataReader
+from alemanpyutils.runner.readers.data_reader import DataReader
 from alemanpyutils.runner.runner_config import RunnerConfig
 from alemanpyutils.runner.batch import Batch
 

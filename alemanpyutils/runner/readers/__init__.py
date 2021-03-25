@@ -1,3 +1,5 @@
+from alemanpyutils.runner.readers.data_reader import DataReader
+from alemanpyutils.runner.readers.reader import Reader
 from alemanpyutils.runner.readers.file_data_reader import FileDataReader
 from alemanpyutils.runner.readers.random_integer_data_reader import RandomIntegerDataReader
 from alemanpyutils.runner.readers.random_object_data_reader import RandomObjectDataReader
