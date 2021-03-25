@@ -1,0 +1,3 @@
+from alemanpyutils.function.Function import Function
+from alemanpyutils.function.IdentityFunction import ItentityFunction
+from alemanpyutils.function.ToUpperCaseFunction import ToUpperCaseFunction

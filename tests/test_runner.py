@@ -23,3 +23,6 @@ def test_runner():
 
     runner = Runner(reader, writer, processors, rc)
     runner.launch()
+
+
+test_runner()
