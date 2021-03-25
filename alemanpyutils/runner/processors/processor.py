@@ -1,10 +1,10 @@
 from threading import Thread
 
-from alemanpyutils.function.Function import Function
-from alemanpyutils.io.Reader import Reader
-from alemanpyutils.io.RunnerConfig import RunnerConfig
-from alemanpyutils.io.Writer import Writer
-from alemanpyutils.io.batch import Batch
+from alemanpyutils.function.function import Function
+from alemanpyutils.runner.readers.reader import Reader
+from alemanpyutils.runner.runner_config import RunnerConfig
+from alemanpyutils.runner.writers.writer import Writer
+from alemanpyutils.runner.batch import Batch
 
 
 class Processor(Thread):
@@ -45,8 +45,3 @@ class Processor(Thread):
             new_batch.add(self._function.apply(elem))
 
         return new_batch
-
-
-
-
-

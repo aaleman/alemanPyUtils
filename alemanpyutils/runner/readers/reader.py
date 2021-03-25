@@ -1,9 +1,9 @@
 from queue import Queue
 from threading import Thread
 
-from alemanpyutils.io.DataReader import DataReader
-from alemanpyutils.io.RunnerConfig import RunnerConfig
-from alemanpyutils.io.batch import Batch
+from alemanpyutils.runner.readers.data_reader import DataReader
+from alemanpyutils.runner.runner_config import RunnerConfig
+from alemanpyutils.runner.batch import Batch
 
 
 class Reader(Thread):
@@ -64,7 +64,3 @@ class Reader(Thread):
 
     def take(self):
         return self.__read_queue.get()
-
-
-
-

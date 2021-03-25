@@ -1,4 +1,4 @@
-from alemanpyutils.io.batch import Batch
+from alemanpyutils.runner.batch import Batch
 
 
 class DataWriter:
@@ -18,6 +18,6 @@ class DataWriter:
     def write_batch(self, batch: Batch) -> None:
         for elem in batch.get_elems():
             self.write(elem)
-       
+
     def write(self, elem) -> None:
         pass

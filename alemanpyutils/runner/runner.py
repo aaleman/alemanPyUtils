@@ -1,11 +1,12 @@
-from alemanpyutils.io.Processor import Processor
-from alemanpyutils.io.Reader import Reader
-from alemanpyutils.io.RunnerConfig import RunnerConfig
-from alemanpyutils.io.Writer import Writer
+from alemanpyutils.runner.processors.processor import Processor
+from alemanpyutils.runner.readers.reader import Reader
+from alemanpyutils.runner.runner_config import RunnerConfig
+from alemanpyutils.runner.writers.writer import Writer
 
 
 class Runner:
     def __init__(self, reader: Reader, writer: Writer, processors: [Processor], runner_config:RunnerConfig):
+
         super().__init__()
         self.__reader = reader
         self.__writer = writer
@@ -27,6 +28,3 @@ class Runner:
         for proc in self.__processors:
             proc.join()
         self.__writer.join()
-
-
-

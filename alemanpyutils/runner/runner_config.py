@@ -9,4 +9,3 @@ class RunnerConfig:
         self.num_processors = num_processors
         self.batch_size = batch_size
         self.verbose = verbose
-
