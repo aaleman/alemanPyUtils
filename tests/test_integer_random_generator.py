@@ -1,4 +1,4 @@
-from alemanpyutils.random.RandomIntegerGenerator import RandomIntegerGenerator
+from alemanpyutils.random.random_integer_generator import RandomIntegerGenerator
 
 
 def test_int_rand_gen():

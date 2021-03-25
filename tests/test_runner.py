@@ -1,11 +1,11 @@
-from alemanpyutils.function.ToUpperCaseFunction import ToUpperCaseFunction
-from alemanpyutils.runner.Processor import Processor
-from alemanpyutils.runner.Reader import Reader
-from alemanpyutils.runner.Runner import Runner
-from alemanpyutils.runner.RunnerConfig import RunnerConfig
-from alemanpyutils.runner.Writer import Writer
-from alemanpyutils.runner.readers.RandomStringDataReader import RandomStringDataReader
-from alemanpyutils.runner.writers.StandardOutputWriter import StandardOutputWriter
+from alemanpyutils.function.to_upper_case_function import ToUpperCaseFunction
+from alemanpyutils.runner.processor import Processor
+from alemanpyutils.runner.reader import Reader
+from alemanpyutils.runner.runner import Runner
+from alemanpyutils.runner.runner_config import RunnerConfig
+from alemanpyutils.runner.writer import Writer
+from alemanpyutils.runner.readers.random_string_data_reader import RandomStringDataReader
+from alemanpyutils.runner.writers.standard_output_writer import StandardOutputWriter
 
 
 def test_runner():

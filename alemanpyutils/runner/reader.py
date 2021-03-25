@@ -1,9 +1,9 @@
 from queue import Queue
 from threading import Thread
 
-from alemanpyutils.runner.DataReader import DataReader
-from alemanpyutils.runner.RunnerConfig import RunnerConfig
-from alemanpyutils.runner.Batch import Batch
+from alemanpyutils.runner.data_reader import DataReader
+from alemanpyutils.runner.runner_config import RunnerConfig
+from alemanpyutils.runner.batch import Batch
 
 
 class Reader(Thread):

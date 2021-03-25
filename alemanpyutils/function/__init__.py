@@ -1,3 +1,3 @@
-from alemanpyutils.function.Function import Function
-from alemanpyutils.function.IdentityFunction import IdentityFunction
-from alemanpyutils.function.ToUpperCaseFunction import ToUpperCaseFunction
+from alemanpyutils.function.function import Function
+from alemanpyutils.function.identity_function import IdentityFunction
+from alemanpyutils.function.to_upper_case_function import ToUpperCaseFunction

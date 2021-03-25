@@ -1,4 +1,4 @@
-from alemanpyutils.function.Function import Function
+from alemanpyutils.function.function import Function
 
 
 class IdentityFunction(Function):

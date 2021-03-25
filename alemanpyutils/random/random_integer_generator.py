@@ -1,4 +1,4 @@
-from alemanpyutils.random.RandomGenerator import RandomGenerator
+from alemanpyutils.random.random_generator import RandomGenerator
 import random
 
 

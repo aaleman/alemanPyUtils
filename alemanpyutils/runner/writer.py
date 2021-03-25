@@ -1,9 +1,9 @@
 from queue import Queue
 from threading import Thread
 
-from alemanpyutils.runner.DataWriter import DataWriter
-from alemanpyutils.runner.RunnerConfig import RunnerConfig
-from alemanpyutils.runner.Batch import Batch
+from alemanpyutils.runner.data_writer import DataWriter
+from alemanpyutils.runner.runner_config import RunnerConfig
+from alemanpyutils.runner.batch import Batch
 
 
 class Writer(Thread):

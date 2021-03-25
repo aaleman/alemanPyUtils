@@ -1,5 +1,5 @@
-from alemanpyutils.runner.readers.RandomObjectDataReader import RandomObjectDataReader
-from alemanpyutils.random.RandomStringGenerator import RandomStringGenerator
+from alemanpyutils.runner.readers.random_object_data_reader import RandomObjectDataReader
+from alemanpyutils.random.random_string_generator import RandomStringGenerator
 
 
 class RandomStringDataReader(RandomObjectDataReader):

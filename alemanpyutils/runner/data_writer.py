@@ -1,4 +1,4 @@
-from alemanpyutils.runner.Batch import Batch
+from alemanpyutils.runner.batch import Batch
 
 
 class DataWriter:

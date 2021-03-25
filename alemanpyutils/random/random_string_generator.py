@@ -1,7 +1,7 @@
 import random
 import string
 
-from alemanpyutils.random.RandomGenerator import RandomGenerator
+from alemanpyutils.random.random_generator import RandomGenerator
 
 
 class RandomStringGenerator(RandomGenerator):

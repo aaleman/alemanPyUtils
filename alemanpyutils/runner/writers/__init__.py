@@ -1,2 +1,2 @@
-from alemanpyutils.runner.writers.FileDataWriter import FileDataWriter
-from alemanpyutils.runner.writers.StandardOutputWriter import StandardOutputWriter
+from alemanpyutils.runner.writers.file_data_writer import FileDataWriter
+from alemanpyutils.runner.writers.standard_output_writer import StandardOutputWriter
