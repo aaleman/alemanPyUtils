@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 setup(
     name='alemanpyutils',
     packages=find_packages(),
-    version='0.0.1',
+    version='0.0.2',
     description='alemanpyutils',
     author='Alejandro Alemán',
     license='',
@@ -14,3 +14,4 @@ setup(
 
 
 )
+
