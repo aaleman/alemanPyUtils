@@ -1,11 +1,11 @@
 from alemanpyutils.function.ToUpperCaseFunction import ToUpperCaseFunction
-from alemanpyutils.io.Processor import Processor
-from alemanpyutils.io.Reader import Reader
-from alemanpyutils.io.Runner import Runner
-from alemanpyutils.io.RunnerConfig import RunnerConfig
-from alemanpyutils.io.Writer import Writer
-from alemanpyutils.io.readers.RandomStringDataReader import RandomStringDataReader
-from alemanpyutils.io.writers.StandardOutputWriter import StandardOutputWriter
+from alemanpyutils.runner.Processor import Processor
+from alemanpyutils.runner.Reader import Reader
+from alemanpyutils.runner.Runner import Runner
+from alemanpyutils.runner.RunnerConfig import RunnerConfig
+from alemanpyutils.runner.Writer import Writer
+from alemanpyutils.runner.readers.RandomStringDataReader import RandomStringDataReader
+from alemanpyutils.runner.writers.StandardOutputWriter import StandardOutputWriter
 
 
 def test_runner():
@@ -23,6 +23,3 @@ def test_runner():
 
     runner = Runner(reader, writer, processors, rc)
     runner.launch()
-
-
-test_runner()

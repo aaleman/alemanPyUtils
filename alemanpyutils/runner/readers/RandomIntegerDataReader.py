@@ -1,4 +1,4 @@
-from alemanpyutils.io.readers.RandomObjectDataReader import RandomObjectDataReader
+from alemanpyutils.runner.readers.RandomObjectDataReader import RandomObjectDataReader
 from alemanpyutils.random.RandomIntegerGenerator import RandomIntegerGenerator
 
 

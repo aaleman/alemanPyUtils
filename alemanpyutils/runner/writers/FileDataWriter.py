@@ -1,4 +1,4 @@
-from alemanpyutils.io.DataWriter import DataWriter
+from alemanpyutils.runner.DataWriter import DataWriter
 
 
 class FileDataWriter(DataWriter):

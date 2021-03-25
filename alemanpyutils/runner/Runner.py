@@ -1,7 +1,7 @@
-from alemanpyutils.io.Processor import Processor
-from alemanpyutils.io.Reader import Reader
-from alemanpyutils.io.RunnerConfig import RunnerConfig
-from alemanpyutils.io.Writer import Writer
+from alemanpyutils.runner.Processor import Processor
+from alemanpyutils.runner.Reader import Reader
+from alemanpyutils.runner.RunnerConfig import RunnerConfig
+from alemanpyutils.runner.Writer import Writer
 
 
 class Runner:

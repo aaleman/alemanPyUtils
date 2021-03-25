@@ -1,9 +1,9 @@
 from queue import Queue
 from threading import Thread
 
-from alemanpyutils.io.DataWriter import DataWriter
-from alemanpyutils.io.RunnerConfig import RunnerConfig
-from alemanpyutils.io.batch import Batch
+from alemanpyutils.runner.DataWriter import DataWriter
+from alemanpyutils.runner.RunnerConfig import RunnerConfig
+from alemanpyutils.runner.Batch import Batch
 
 
 class Writer(Thread):
@@ -46,4 +46,3 @@ class Writer(Thread):
 
     def put_last(self) -> None:
         self.put(Batch.last())
-

@@ -1,4 +1,4 @@
-from alemanpyutils.io.batch import Batch
+from alemanpyutils.runner.Batch import Batch
 
 
 def test_batch():
@@ -7,3 +7,4 @@ def test_batch():
     """
     b1 = Batch(100)
     b2 = Batch()
+
